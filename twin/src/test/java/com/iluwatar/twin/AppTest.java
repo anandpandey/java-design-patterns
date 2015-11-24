@@ -1,8 +1,6 @@
-package com.iluwatar.poison.pill;
+package com.iluwatar.twin;
 
 import org.junit.Test;
-
-import com.iluwatar.producer.consumer.App;
 
 /**
  * 
@@ -15,6 +13,5 @@ public class AppTest {
   public void test() throws Exception {
     String[] args = {};
     App.main(args);
-
   }
 }

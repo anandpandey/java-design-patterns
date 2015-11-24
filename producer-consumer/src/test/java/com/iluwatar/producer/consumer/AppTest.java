@@ -1,8 +1,8 @@
-package com.iluwatar.adapter;
+package com.iluwatar.producer.consumer;
 
 import org.junit.Test;
 
-import com.iluwatar.adapter.App;
+import com.iluwatar.producer.consumer.App;
 
 /**
  * 
@@ -12,8 +12,9 @@ import com.iluwatar.adapter.App;
 public class AppTest {
 
   @Test
-  public void test() {
+  public void test() throws Exception {
     String[] args = {};
     App.main(args);
+
   }
 }
